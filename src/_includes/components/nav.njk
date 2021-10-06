@@ -1,10 +1,10 @@
     <nav class="navbar">
-        <div class="navbar-inner container">
-            <a class="navbar-brand" href="#">Logotext</a>
+        <div class="navbar-inner container containernav">
+            <a class="navbar-brand" href="/">Logotext</a>
             <ul class="nav">
-            {% for item in navigation.items %}
+            {% for item in items %}
                 <li class="nav-item">
-                    <a href="{{ item.url }}" class="nav-link">{{ item.title }}</a>
+                    <a href="/items/{{ item.name | slug }}/" class="nav-link">{{ item.name }}</a>
                 </li>
             {% endfor %}
             </ul>

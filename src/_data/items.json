@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Elon Musk",
+      "imgurl": "/images/elonmusk.PNG",
+      "age": 76
+    },
+    {
+      "name": "Snugglepants",
+      "imgurl": "Elon Musk",
+      "age": 5
+    },
+    {
+      "name": "Lord Featherbottom",
+      "imgurl": "Elon Musk",
+      "age": 4
+    },
+    {
+      "name": "Pennywise",
+      "imgurl": "Elon Musk",
+      "age": 9
+    }
+  ]

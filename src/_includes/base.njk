@@ -9,6 +9,8 @@
 </head>
 <body>
     {% include "components/nav.njk" %}
-    {{ content | safe }} 
+    <div class="container containermain">
+        {{ content | safe }} 
+    </div>
 </body>
 </html>

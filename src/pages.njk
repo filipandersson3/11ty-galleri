@@ -1,0 +1,13 @@
+---
+layout: base.njk
+pagination:
+    data: items
+    size: 1
+    alias: item
+permalink: "items/{{ item.name | slug }}/"
+---
+<h1>{{ item.name }}</h1>
+
+<img alt="{{ item.name }}" src="{{ item.imgurl }}">
+
+<p>{{ item.name }} är {{ item.age }} år gammal.</p>
