@@ -1,22 +1,22 @@
 [
     {
-      "name": "Elon Musk",
+      "name": "Elog Musk",
       "imgurl": "/images/elonmusk.PNG",
-      "age": 76
+      "fact": "68 år gammal"
     },
     {
-      "name": "Snugglepants",
-      "imgurl": "Elon Musk",
-      "age": 5
+      "name": "Husvagn",
+      "imgurl": "/images/husvagn.jpg",
+      "fact": "billig och bra och man kan sova i den, köp för endast 12000 kr"
     },
     {
-      "name": "Lord Featherbottom",
-      "imgurl": "Elon Musk",
-      "age": 4
+      "name": "Jeffery Beso",
+      "imgurl": "/images/jefferybeso.jpg",
+      "fact": "mycket pengar???? sen så vet jag inte så mycket mer"
     },
     {
-      "name": "Pennywise",
-      "imgurl": "Elon Musk",
-      "age": 9
+      "name": "jag",
+      "imgurl": "/images/jag.jpg",
+      "fact": "uhhh.... jag har skapat sidan :) och alla bilder är från public domain"
     }
   ]
