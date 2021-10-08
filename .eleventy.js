@@ -4,6 +4,8 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addShortcode('image', (src, alt) => `<img alt="${alt}" src="${src}">`);
 
+    eleventyConfig.addFilter("makeUppercase", function(value) { return value.toUpperCase(); });
+
     return {
         dir: {
             input: 'src',
