@@ -1,6 +1,9 @@
 $bg-color: rgb(230, 230, 230);
 $page-color: rgb(238, 238, 238);
-$primary: #90ee90;
+$primary: #53c2e4;
+$secondary: rgb(128, 128, 128);
+$tertiary: rgb(32, 32, 32);
+$footer-color: rgb(41, 41, 41);
 
 $breakpoint-lg: 48rem;
 $breakpoint-md: div($breakpoint-lg, 2);
@@ -8,7 +11,12 @@ $breakpoint-sm: div($breakpoint-lg, 4);
 
 body {
     background-color: $bg-color;
+    font-family: 'Inter', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import "utilities/container";
 @import "components/nav";
+@import "utilities/reset";
+@import "components/footer";
+@import "components/card";

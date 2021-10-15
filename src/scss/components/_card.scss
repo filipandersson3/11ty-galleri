@@ -1,0 +1,48 @@
+.card {
+    background-color: $page-color;
+    color: $tertiary;
+    display: flex;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-color: $secondary;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+
+    &-img {
+        width: 4rem;
+        height: 4rem;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        &-right {
+            position: absolute;
+            right: 0;
+            transform: translateY(-50%);
+            top: 50%;
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-right: 1rem;
+        }
+    }
+
+    &-content {
+        overflow: hidden;
+        margin-right: 4rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    &-more {
+        z-index: 2;
+    }
+
+    &:hover {
+        background-color: rgb(207, 239, 241);
+    }
+}
+
+
+@import "../utilities/stretched-link";

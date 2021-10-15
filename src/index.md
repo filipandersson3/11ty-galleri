@@ -15,6 +15,4 @@ layout: base.njk
 
 Din gamla galosch.
 
-![Min bild](/images/elonmusk.PNG)
-
-{% image "/images/elonmusk.PNG", "Bild" %}
+{% image "./src/images/elonmusk.PNG", "photo of my cat", "300" %}

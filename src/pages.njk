@@ -8,6 +8,6 @@ permalink: "items/{{ item.name | slug }}/"
 ---
 <h1>{{ item.name }}</h1>
 
-<img alt="{{ item.name }}" src="{{ item.imgurl }}">
+{% image item.imgurl, item.name, "300" %}
 
 <p>{{ item.name }} är {{ item.fact }}</p>

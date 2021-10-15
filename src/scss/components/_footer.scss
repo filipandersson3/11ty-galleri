@@ -1,0 +1,12 @@
+.footer {
+    margin-top: auto;
+    background-color: $footer-color;
+    color: $page-color;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}

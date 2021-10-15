@@ -10,7 +10,10 @@
 <body>
     {% include "components/nav.njk" %}
     <div class="container containermain">
+        <br>{{ page.date | dateFilter }}
         {{ content | safe }} 
     </div>
+    {% include "components/card.njk" %}
+    {% include "components/footer.njk" %}
 </body>
 </html>
