@@ -1,5 +1,7 @@
+@use "sass:color" as color;
+
 .card {
-    background-color: $page-color;
+    background-color: color.adjust($page-color, $lightness: +3%);
     color: $tertiary;
     display: flex;
     border-style: solid;
@@ -10,6 +12,7 @@
     overflow: hidden;
     white-space: nowrap;
     position: relative;
+    font-size: small;
 
     &-img {
         width: 4rem;
@@ -40,7 +43,7 @@
     }
 
     &:hover {
-        background-color: rgb(207, 239, 241);
+        background-color: color.adjust($primary, $lightness: +30%);
     }
 }
 

@@ -12,8 +12,8 @@
     <div class="container containermain">
         <br>{{ page.date | dateFilter }}
         {{ content | safe }} 
+        {% include "components/card.njk" %}
     </div>
-    {% include "components/card.njk" %}
     {% include "components/footer.njk" %}
 </body>
 </html>

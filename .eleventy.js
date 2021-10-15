@@ -31,6 +31,8 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addFilter("dateFilter", function(value) { moment.locale('sv'); return moment(value).format('MMMM Do YYYY'); });
 
+    eleventyConfig.addPassthroughCopy("src/images");
+
     return {
         dir: {
             input: 'src',

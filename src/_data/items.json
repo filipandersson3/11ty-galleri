@@ -1,22 +1,22 @@
 [
     {
       "name": "Elog Musk",
-      "imgurl": "./src/images/elonmusk.PNG",
+      "imgurl": "./src/contentimages/elonmusk.PNG",
       "fact": "68 år gammal"
     },
     {
       "name": "Husvagn",
-      "imgurl": "./src/images/husvagn.jpg",
+      "imgurl": "./src/contentimages/husvagn.jpg",
       "fact": "billig och bra och man kan sova i den, köp för endast 12000 kr"
     },
     {
       "name": "Jeffery Beso",
-      "imgurl": "./src/images/jefferybeso.jpg",
+      "imgurl": "./src/contentimages/jefferybeso.jpg",
       "fact": "mycket pengar???? sen så vet jag inte så mycket mer"
     },
     {
       "name": "jag",
-      "imgurl": "./src/images/jag.jpg",
+      "imgurl": "./src/contentimages/jag.jpg",
       "fact": "uhhh.... jag har skapat sidan :) och alla bilder är från public domain"
     }
   ]
