@@ -2,11 +2,15 @@
     <div class="container footer-inner">
         <p>Copyright 1994</p>
         <ul>
-            <li>HELLO</li>
-            <li>LET ME OUT</li>
-            <li>HELP ME</li>
-            <li>PLEASE</li>
-            <li>I BEG YOU</li>
+            {% for item in items %}
+                <li class="nav-item">
+                    <a href="/items/{{ item.name | slug }}/" class="nav-link">{{ item.name }}</a>
+                </li>
+            {% endfor %}
+                <li class="nav-item">
+                    <a href="/donate/" class="nav-link">Donate</a>
+                </li>
+            </ul>
         </ul>
     </div>
 </footer>

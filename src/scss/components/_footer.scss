@@ -4,6 +4,10 @@
     color: $page-color;
     padding-top: 3rem;
     padding-bottom: 4rem;
+
+    ul {
+        list-style-type: none;
+    }
 }
 
 .footer-inner {

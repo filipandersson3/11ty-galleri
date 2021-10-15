@@ -11,3 +11,5 @@ permalink: "items/{{ item.name | slug }}/"
 {% image item.imgurl, item.name, "300" %}
 
 <p>{{ item.name }} är {{ item.fact }}</p>
+
+{% include "components/card.njk" %}

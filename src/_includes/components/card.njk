@@ -1,10 +1,12 @@
 <div class="card-group">
             <div class="card">
                 <a href="#" class="stretched-link"></a>
-                <img src="https://robohash.org/resistance" alt="Face image" class="card-img">
+                <div class="card-img">
+                {% image item.imgurl, item.name, "300" %}
+                </div>
                 <div class="card-content">
-                    <p>Jens Andreasson har lagt upp en ny uppgift: SASS - Anpassa webbplatsen med komponenter</p>
-                    <p>15 sep.</p>
+                    <p>{{ item.name }} är {{ item.fact }}</p>
+                    <p>{{ page.date | dateFilter }}</p>
                 </div>
                 <a href="index.html" class="card-more"><img src="/images/outline_more_vert_black_24dp.png" alt="Face image" class="card-img card-img-right" style="margin-left: auto;"></a>
             </div>
